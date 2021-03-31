@@ -13,7 +13,7 @@ public class Test {
 
 	public static void main(String[] args) {
 
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in); // input scource
 
 		ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
 
